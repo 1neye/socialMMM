@@ -11,11 +11,7 @@ const App = () => {
       <Routes>
         <Route element={<Layout />}>
           <Route path="/" element={<Inst />} />
-          <Route path="/form" element={<InstForm />} />
         </Route>
-        {/* <Route element={<div>w</div>}> */}
-
-        {/* </Route> */}
       </Routes>
     </div>
   )
